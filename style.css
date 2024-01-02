@@ -1,0 +1,193 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    outline:none;
+}
+
+
+body{
+    background-color: #e9e9de;
+}
+.heading{
+    background-color:blueviolet;
+    color:#a3f00a;
+    
+}
+.heading,.btn-div{
+    padding:1% 1%;
+    
+}
+.st{
+    color:white;
+}
+.sp1{
+    font-size: 33px;
+    color:white;
+}
+
+.note-outer {
+    width:23%;
+    float:left; /* Adjust this percentage as needed for spacing */
+    margin: 1%;
+    /*box-shadow: 5px 5px 5px 5px #8955a7;*/
+    box-shadow: 
+    5px 5px 5px blueviolet,/* First shadow: Red */
+    -5px -5px 5px #a3f00a;
+    background-color: white;
+    border-radius:10px;
+    border:none;
+    
+  }
+
+
+.edit,.delet{
+    margin-left:85px;
+}
+.fa-edit{
+    color:midnightblue;
+}
+.fa-trash-alt{
+    color:navy;
+
+}
+.note {
+    
+    padding: 10px;
+    width: 100%; /* Ensures contents take up the full width */
+ }
+.hidden{
+    display:none;
+}
+textarea {
+    margin-top:8px;
+    width:100%;
+    resize:none;
+    min-height:255px;
+    font-size:20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bold ;
+    line-height:30px;
+    
+    
+    
+}
+.main{
+    
+    margin-top:8px;
+    word-wrap: break-word;
+    min-height:255px;
+    max-height:255px ;
+    overflow-y:scroll;
+    font-size:18px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    line-height:30px;
+    
+    
+}
+
+
+.learn-more{
+    width:120px;
+    height:50px;
+    border-radius:25px;
+    border:none;
+    background-color:burlywood;
+    color:rgb(68, 1, 1);
+    font-size:18px;
+    font-weight:bold;
+}
+button{
+    cursor:pointer;
+}
+.circle{
+    color:white;
+}
+
+/*
+.heading{
+    color:yellowgreen;
+    background-color:blueviolet;
+    padding:10px 0 15px 10px;
+}
+
+.note-outer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height:100px;
+    border:1px solid red;
+    
+    margin-right: 10px; 
+    padding: 10px; /
+    box-sizing: border-box; 
+    
+    
+}
+
+
+.hidden{
+    display:none;
+}
+
+.learn-more{
+    background-color:orange;
+    color:brown;
+    width:90px;
+    height:30px;
+    border:none;
+    border-radius:15px;
+    font-size:18px;
+    
+
+}
+.note{
+    display: flex;
+    flex-direction: column;
+    background-color:whitesmoke;
+    
+    border:1px solid black;
+    
+    border:1px solid yellow;
+    
+    
+
+}
+
+
+textarea{
+    
+   
+    border:2px solid black;
+    border:none;
+    border:1px solid blue;
+    resize:none;
+    
+    
+    
+
+}
+
+.main{
+    
+    
+    height:auto;
+}
+*/
+
+
+/*
+
+.main{
+    width:100%;
+    height:60%;
+    color:blueviolet;
+    border:1px solid red;
+    padding:0 5px;
+    overflow-wrap:break-word;
+    word-wrap:break-word;
+    overflow-y:scrool;
+   
+   
+} 
+*/
